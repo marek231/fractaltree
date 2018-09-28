@@ -1,0 +1,20 @@
+<!doctype HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Tree</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="model.js"></script>
+</head>
+<body>
+	<div class=".container-fluid">
+		<canvas id="myCanvas"></canvas>
+		<div class="slidecontainer">
+			<input type="range" class="slider" id="myRange">
+		</div>
+		<input type="button" id="myButton" value="Click here" onclick="buildBiggerTree()">
+	</div>
+</body>
+</html>
